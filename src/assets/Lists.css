@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 10px;
+
+}
+
+.list-container{
+    background-color: white;
+    width: 75%;
+    padding: 0px 0px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 20px;
+    border: none;
+    box-shadow: 8px 8px 8px rgb(167,167,167);
+}
+
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px;
+    border-bottom: 2px solid black;
+}
+
+.details-button {
+    border-radius: 10px;
+    border: none;
+    font-size: 1vw;
+    padding: px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(167,167,167);
+}
+
+.checkmark {
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    border-color: rgb(167,167,167);
+    transition: background-color 0.2s ease
+    
+}
+
+.comp-button {
+    border-radius: 20px;
+    background-color: rgb(255,112,67);
+    color: white;
+    font-size: 2vw;
+    border: none;
+    box-shadow: 8px 8px 8px rgb(167,167,167);
+    margin-top: 10px;
+  }
+
+.comp-button:hover{
+    background-color: red;
+}
+
+.parent-container{
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width:800px){
+    .container{
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        min-width: 100%; 
+    }
+
+    .list-container{
+        margin-inline: 0;
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    .details-button{
+        font-size: 2.5vw;
+        padding-block: 4px;
+    }
+
+    .checkmark{
+        height: 4vw;
+        width: 4vw;
+    }
+
+    .comp-button{
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html, body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom left, #fce3ec, #d5e8f6);
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+#root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}

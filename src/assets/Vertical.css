@@ -1,0 +1,75 @@
+/* Vertical.css */
+
+/* Only apply these styles when the page has the 'vertical-navbar-page' class */
+.vertical-navbar-page,
+.vertical-navbar-page body {
+  height: 100%;
+}
+
+.vertical-navbar-page .navbar {
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  border-right: 2px solid #ddd;
+}
+
+.vertical-navbar-page .navbar .navbar-brand {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.vertical-navbar-page .navbar .navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  color: #333;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+.vertical-navbar-page .navbar .navbar-nav .nav-link:hover {
+  background-color: #f1f1f1;
+  color: #007bff;
+}
+
+.vertical-navbar-page .navbar .navbar-nav .nav-link.active {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.vertical-navbar-page .main-content {
+  margin-left: 250px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 250px);
+}
+
+.vertical-navbar-page .main-content h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.vertical-navbar-page .main-content p {
+  font-size: 18px;
+  color: #666;
+}
+
+.vertical-navbar-page .search-bar {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

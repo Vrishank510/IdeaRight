@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 40px;
+    font-size: 1vw;
+}
+
+.link{
+    margin-left: 40px;
+    font-size: 1vw;
+}
+
+.join-button {
+    font-size: 1vw;
+    border-radius: 30px;
+    padding-inline: 30px;
+    background-color: #039be5;
+    border: none;
+    font-weight: 800;
+}
+
+  
